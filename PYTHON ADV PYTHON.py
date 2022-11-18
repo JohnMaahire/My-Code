@@ -83,3 +83,173 @@ total = num1 + num2
 print("total is : "+str(total))
 
 # same can be used for float
+
+# string formatting
+ name = "John"
+ age = "24"
+
+ print("Hello {} Your age is {}".format(name,age))
+
+ print(f"Hello {name} Your age is {age}")               # Using f string ----------> string formatting
+
+
+#calculate avg of three numbers
+num1 = input ("enter num1:")
+num2 =input ("enter num2:")
+num3 =input ("enter num3:")
+
+#(int(num1)+int(num2)+int(num3))/3
+
+print(f"The avg of these numbers is:{(int(num1)+int(num2)+int(num3))/3}")
+
+
+# how to write input in one line
+num1,num2,num3 = input("Enter three numbers comma seperated").split(",")
+
+print(f"The avg of these numbers is:{(int(num1)+int(num2)+int(num3))/3}")
+
+
+#Sting Indexing
+
+lang = "python"         # lang is variable and "python is str"
+
+# positions (index numbers)
+
+# p = 0, -6
+# y = 1, -5
+# t = 2, -4
+# h = 3, -3
+# o = 4, -2    
+# n = 5, -1  
+
+# print(lang[])               #always remember============ in python we use square bracket for indexing=========
+
+print(lang[2])
+
+print(lang[-1])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
